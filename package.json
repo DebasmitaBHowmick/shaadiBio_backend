@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -r dotenv src/server.js"
+    "dev": "nodemon -r dotenv/config src/server.js",
+     "start": "node src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Debasmita Bhowmick",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
