@@ -9,7 +9,7 @@ const app = express();
 // middleware
 app.use(
   cors({ 
-    origin: process.env.CORS_ORIGIN,
+    origin: "https://codemyfyp-frontend.vercel.app",
     credentials: true,
   })
 )
